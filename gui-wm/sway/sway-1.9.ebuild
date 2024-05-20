@@ -27,6 +27,13 @@ DEPEND="
 	>=dev-libs/json-c-0.13:0=
 	>=dev-libs/libinput-1.21.0:0=
 	virtual/libudev
+	app-misc/jq
+	x11-terms/alacritty
+	gui-apps/grim
+	gui-apps/slurp
+	gui-apps/wl-clipboard
+	x11-apps/setxkbmap
+	gui-wm/sway-overfocus::p-repo
 	sys-auth/seatd:=
 	dev-libs/libpcre2
 	>=dev-libs/wayland-1.20.0
@@ -41,7 +48,9 @@ DEPEND="
 		sys-auth/elogind
 		sys-libs/basu
 	) )
-	wallpapers? ( gui-apps/swaybg[gdk-pixbuf(+)] )
+	wallpapers? ( gui-apps/swaybg[gdk-pixbuf(+)]
+	gui-apps/mpvpaper
+	)
 	X? (
 		x11-libs/libxcb:0=
 		x11-libs/xcb-util-wm
