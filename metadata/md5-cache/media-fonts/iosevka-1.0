@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=iosevka ebuild
+EAPI=8
+INHERIT=toolchain-funcs
+KEYWORDS=amd64 x86
+LICENSE=MIT
+SLOT=0
+SRC_URI=https://github.com/Gcorreiaq/p-repo-forks/raw/main/iosevka.tar.xz -> iosevka.tar.xz
+_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0
+_md5_=f094aaccfc84c7ef1718608163ee3eae
