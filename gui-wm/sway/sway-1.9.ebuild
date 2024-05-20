@@ -33,7 +33,7 @@ DEPEND="
 	gui-apps/slurp
 	gui-apps/wl-clipboard
 	x11-apps/setxkbmap
-	gui-wm/sway-overfocus::p-repo
+	gui-wm/sway-overfocus
 	sys-auth/seatd:=
 	dev-libs/libpcre2
 	>=dev-libs/wayland-1.20.0
