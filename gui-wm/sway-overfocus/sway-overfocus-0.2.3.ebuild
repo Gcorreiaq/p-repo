@@ -6,9 +6,11 @@ swayipc@3.0.1
 "
 
 inherit cargo
+inherit git-r3
 DESCRIPTION="sway-overfocus ebuild"
 
-SRC_URI="https://github.com/Gcorreiaq/p-repo-forks/raw/main/sway-overfocus.tar.xz -> sway-overfocus.tar.xz"
+EGIT_REPO_URI="https://github.com/korreman/sway-overfocus.git"
+#SRC_URI="https://github.com/korreman/sway-overfocus -> sway-overfocus.tar.xz"
 
 SLOT="0"
 
@@ -18,6 +20,10 @@ IUSE=""
 
 src_unpack() {
 cargo_src_unpack
+}
+
+src_configure() {
+cargo_src_configure
 }
 
 src_compile() {
